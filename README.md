@@ -2,7 +2,7 @@
 
 ## Project Description
 
-The **File Sorter** is a Python script designed to organize and sort files in a specified directory by their file formats. It creates subdirectories for different types of files (like images, videos, documents, etc.) and moves the files into their respective folders.
+The **Files Sorter** is a Python script designed to organize and sort files in a specified directory by their file formats. It creates subdirectories for different types of files (like images, videos, documents, etc.) and moves the files into their respective folders.
 
 ## Features
 
@@ -11,7 +11,7 @@ The **File Sorter** is a Python script designed to organize and sort files in a 
 - Handles errors gracefully and provides user prompts for existing directories.
 
 ## Installation
-1. Navigate to the desired direvtory using shell/command promt
+1. Navigate to the desired directory using shell/command promt
 2. Clone the repository:
     ```sh
     git clone https://github.com/MTCodes01/Files-Sorter.git
@@ -32,8 +32,8 @@ The **File Sorter** is a Python script designed to organize and sort files in a 
 
 > [!IMPORTANT]
 > ## File Categories
-
-The script sorts files into the following categories:
+>
+> The script sorts files into the following categories:
 - **Python Files** (`.py`)
 - **C Files** (`.c`)
 - **Webpages** (`.html`, `.css`, `.js`)
