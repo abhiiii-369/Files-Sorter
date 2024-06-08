@@ -30,24 +30,24 @@ The **Files Sorter** is a Python script designed to organize and sort files in a
 3. The script will ask if you want to continue in the default "Sorted Files" directory or create a new one (Only if you ran the code once, else it won't).
 4. Once confirmed, the script will sort the files in the current working directory or the specified directory into subdirectories based on their file formats.
 
-> [!IMPORTANT]
+> [!NOTE]
 > ## File Categories
 >
 > The script sorts files into the following categories:
-- **Python Files** (`.py`)
-- **C Files** (`.c`)
-- **Webpages** (`.html`, `.css`, `.js`)
-- **Executable Files** (`.exe`)
-- **Java Files** (`.java`)
-- **Dart Files** (`.dart`)
-- **Image Files** (`.png`, `.jpeg`, `.gif`, `.jpg`, `.tiff`, `.bmp`, `.svg`)
-- **Video Files** (`.mov`, `.mp4`, `.avi`, `.mkv`)
-- **Audio Files** (`.wav`, `.mp3`, `.aac`)
-- **Compressed Files** (`.zip`, `.rar`, `.xz`, `.z`, `.jar`)
-- **Document Files** (`.pdf`, `.xls`, `.csv`, `.txt`, `.dat`)
-- **Extra** (`.class`, `.drawio`)
-
-You can customize the categories by editing the `folders` dictionary in the script.
+> - **Python Files** (`.py`)
+> - **C Files** (`.c`)
+> - **Webpages** (`.html`, `.css`, `.js`)
+> - **Executable Files** (`.exe`)
+> - **Java Files** (`.java`)
+> - **Dart Files** (`.dart`)
+> - **Image Files** (`.png`, `.jpeg`, `.gif`, `.jpg`, `.tiff`, `.bmp`, `.svg`)
+> - **Video Files** (`.mov`, `.mp4`, `.avi`, `.mkv`)
+> - **Audio Files** (`.wav`, `.mp3`, `.aac`)
+> - **Compressed Files** (`.zip`, `.rar`, `.xz`, `.z`, `.jar`)
+> - **Document Files** (`.pdf`, `.xls`, `.csv`, `.txt`, `.dat`)
+> - **Extra** (`.class`, `.drawio`)
+> 
+> You can customize the categories by editing the `folders` dictionary in the script.
 
 ## Example
 
