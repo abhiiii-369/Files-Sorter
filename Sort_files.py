@@ -9,7 +9,7 @@ try:
     new_dir = f'{folder_path}\\Sorted Files'
     os.mkdir(new_dir)
 except FileExistsError:
-    try:
+    try: 
         print(f"\n-- {folder_path}\\Sorted_Files already Exists --\n")
         ch = input(f"Do you want to continue in {folder_path}\\Sorted_Files\n(y/n): ")
         if not ch:
